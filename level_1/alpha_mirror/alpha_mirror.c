@@ -6,7 +6,7 @@
 /*   By: fmoulin <fmoulin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/10 18:23:11 by fmoulin           #+#    #+#             */
-/*   Updated: 2025/06/10 20:11:20 by fmoulin          ###   ########.fr       */
+/*   Updated: 2025/06/10 20:13:09 by fmoulin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,6 +110,7 @@ int	main(int argc, char **argv)
 	else
 	{
 		alpha_mirror(argv[1]);
+		write(1, "\n", 1);
 	}
 	return (0);
 }
