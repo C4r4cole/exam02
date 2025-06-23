@@ -6,7 +6,7 @@
 /*   By: fmoulin <fmoulin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/17 15:48:41 by fmoulin           #+#    #+#             */
-/*   Updated: 2025/06/17 16:29:13 by fmoulin          ###   ########.fr       */
+/*   Updated: 2025/06/23 11:26:23 by fmoulin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	get_digit_value(char c)
 		return (c - '0');
 	else if (c >= 'a' && c <= 'f')
 		return (c - 'a' + 10);
-	else if (c >= 'A' && c <= 'Z')
+	else if (c >= 'A' && c <= 'F')
 		return (c - 'A' + 10);
 	else
 		return (-1);
